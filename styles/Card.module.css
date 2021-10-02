@@ -1,0 +1,28 @@
+.card{
+    margin:1vh;
+    padding:2vh;
+    width: 30vh;
+    height:30vw;
+    border-radius: 3px;
+    border: 1px solid forestgreen;
+    box-shadow: 5px 5px gray;
+    overflow: hidden;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}

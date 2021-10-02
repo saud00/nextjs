@@ -1,0 +1,21 @@
+.nav{
+    min-width: 100%;
+    background-color: darkgray;
+    line-height: 3rem;
+    position: sticky;
+    top: 0px
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+}
+.nav li{
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+.nav li:hover{
+    color: goldenrod;
+}
