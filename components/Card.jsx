@@ -1,13 +1,13 @@
+import Link from 'next/link'
 import style from '../styles/Card.module.css'
 
-function Card({val}) {
-    console.log(val)
+function Card({val,key}) {
     return (
         <div className={style.card}>
-            <a>
-            <h3>{val.title}</h3>
-            <p>{val.body}</p>
-            </a>
+            <Link href="/article/[id]" as={`/article/${val.id}`} ><a>   
+                <h3>{val.title}</h3>
+                <p>{val.body}</p>
+            </a></Link>
         </div>
     )
 }
